@@ -1,0 +1,6 @@
+{
+  "name": "recycleproof", "private": true, "version": "0.2.0",
+  "scripts": {"build": "node scripts/build-contract.cjs", "test": "node --test tests/*.test.cjs"},
+  "dependencies": {"ethers": "6.17.0"},
+  "devDependencies": {"solc": "0.8.30", "ganache": "7.9.2"}
+}

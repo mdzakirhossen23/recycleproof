@@ -1,0 +1,23 @@
+Options -Indexes
+DirectoryIndex index.html
+<IfModule mod_headers.c>
+ Header always set X-Content-Type-Options "nosniff"
+ Header always set Referrer-Policy "same-origin"
+ Header always set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+<FilesMatch "^(owner-config\.php|account-rebuild-config\.php|.*\.(sqlite|db|zip|log|bak))$">
+ Require all denied
+</FilesMatch>
+
+# Preserve the subdomain PHP configuration.
+<IfModule php8_module>
+ php_value error_log "/home/baharsof/logs/php.error.log"
+ php_flag log_errors On
+</IfModule>
+<IfModule lsapi_module>
+ php_value error_log "/home/baharsof/logs/php.error.log"
+ php_flag log_errors On
+</IfModule>
+<IfModule mime_module>
+ AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>

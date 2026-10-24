@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+owner-config.php
+account-rebuild-config.php
+smtp.json
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+*.zip
+*.mp4
+setup-key.txt
+account-rebuild-link.txt
