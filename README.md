@@ -4,6 +4,8 @@ Recycling handover traceability for the IEEE ClimateChain Global Hackathon 2026.
 
 **Track: Sustainable Supply Chains.** Live app: https://recycle.baharsoftbd.com/ · Sample preview: https://recycle.baharsoftbd.com/?demo=1
 
+**Demo video (4:55):** https://youtu.be/TjVTP_1dTa4
+
 ## Try the hosted demo
 
 Open the sample preview without login, or follow the testing-account instructions shown on the hosted login page. This source ships no account passwords. Create your own Controller, Collector and Recycler accounts when deploying. Keep owner setup keys and mail credentials private. Browsing and contract checks need no wallet; publishing requires the correct portal account, a nominated wallet, Amoy test POL and user approval.
