@@ -4,7 +4,9 @@ Recycling handover traceability for the IEEE ClimateChain Global Hackathon 2026.
 
 **Track: Sustainable Supply Chains.** Live app: https://recycle.baharsoftbd.com/ · Sample preview: https://recycle.baharsoftbd.com/?demo=1
 
-**Demo video (4:55):** https://youtu.be/TjVTP_1dTa4
+**Working-app demo video (4:20):** https://youtu.be/Wq2Gjj78-zw
+
+The recording creates and receives fictional portal test RP-VIDEO-20261024 (2.5 kg PET, VIDEO-RCV-002), then separately verifies the earlier signed RP-2026-1 (5 kg) on Amoy. The new video batch is not published on-chain. Pauses are edited and some frames held for narration.
 
 ## Try the hosted demo
 
